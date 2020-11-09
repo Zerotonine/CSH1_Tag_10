@@ -10,10 +10,6 @@ namespace CSH1_Tag_10_Aufgabe_05
     {
         static void Main(string[] args)
         {
-            Fussballfeld f1 = new Fussballfeld(30, 100);
-            Fussballfeld f2 = new Fussballfeld(50, 100);
-            Fussballfeld f3 = new Fussballfeld(30, 120);
-
             List<Fussballfeld> flist = new List<Fussballfeld>()
             {
                 new Fussballfeld(30, 100),
